@@ -75,6 +75,7 @@
         android:padding="10dp"
         android:layout_margin="18dp"
         android:hint="Enter Password"
+        android:imeOptions="actionNext"
         android:inputType="textPassword"
         android:background="#30FFFFFF"
         android:textColor="#fff"
@@ -147,13 +148,22 @@
             android:id="@+id/facebook_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:src="@drawable/face"
             android:padding="8dp"/>
         <ImageView
             android:id="@+id/twitter_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:src="@drawable/twit"
+            android:padding="8dp"/>
+        <ImageView
+            android:id="@+id/instagram_icon"
+            android:layout_width="50dp"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ig"
             android:padding="8dp"/>
 
     </LinearLayout>
